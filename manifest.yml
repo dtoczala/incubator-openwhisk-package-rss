@@ -9,8 +9,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: tox_rsseventprovider
-  host: tox_rsseventprovider
+  name: Tox_RssEventProvider
+  host: Tox_RssEventProvider
   disk_quota: 1024M
   services:
   - registered_triggers
