@@ -40,7 +40,7 @@ var dbname='registered_triggers'
 var apiKey;//the api key used for the openwhisk whisk platform
 
 if(process.env.VCAP_SERVICES) {//run on bluemix platform
-    credentials = appEnv.getServiceCreds("ow_triggers");
+    credentials = appEnv.getServiceCreds("registered_triggers");
     whiskhost = "openwhisk.ng.bluemix.net"
     var cloudant = Cloudant({account: credentials.username, password: credentials.password}, function(err, cloudant) {
         if (err) {
